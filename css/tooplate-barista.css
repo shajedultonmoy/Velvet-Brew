@@ -240,14 +240,15 @@ strong {
   white-space: nowrap;
 }
 
-.navbar .navbar-brand-image {
-  filter: brightness(0) invert(1);
-}
-
 .navbar-brand-image {
   width: 42px;
   height: auto;
   margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.sticky-wrapper.is-sticky .navbar-brand-image {
+  width: 36px;
 }
 
 .navbar .custom-btn {
